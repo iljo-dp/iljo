@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Iljo&#39;s dev and microblogging platform</title>
-    <link>example.com/categories/</link>
+    <link>iljo.dev/categories/</link>
     <description>Recent content in Categories on Iljo&#39;s dev and microblogging platform</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="iljo.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
