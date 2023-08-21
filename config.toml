@@ -1,0 +1,119 @@
+############################ Default configuration #########################
+baseURL = "example.com"
+title = "Iljo's dev and microblogging platform"
+# theme
+theme = "northendlab"
+languageCode = "en-us"
+# post pagination
+paginate = "10"
+# post excerpt
+summaryLength = "10"
+[outputs]
+home = ["HTML", "AMP", "RSS", "JSON"]
+[markup.goldmark.renderer]
+    unsafe = true
+[markup.highlight]
+      codeFences = true
+      guessSyntax = true
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = false
+      lineNumbersInTable = false
+      tabWidth = 4
+      noClasses = false
+
+######################### Default Parameters ###########################
+[params]
+# logo
+logo = "images/favicon.webp"
+logoWidth = 121
+logoHeight = 50
+# favicon
+favicon = "images/favicon.webp"
+author = "Iljo De Poorter"
+description = "My first try at a website, please be kind"
+# homepage main section
+mainSections = ["posts"]
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+# search *** true or false (if Search is disable Menu will align in Right) ***
+search = true
+
+header_search_layout = "expanded" # "expanded" or "popupable"
+menu_align = "center"
+# Blog-details page sidebar
+sidebar = "right" # Sidebar value ("left", "right" or false)
+code_copy_button = true # Turn on/off the code-copy-button for code-fields
+
+######################## Site Variables #########################
+[params.variables]
+# Color Variables
+primary_color = "#47c4f1"
+secondary_color = "#9AC4F8"
+text_color = "#666666"
+text_color_dark = "#222222"
+body_color = "#fff"
+border_color = "#ACB9C4"
+black = "#000"
+white = "#fff"
+light = "#F8F8F8"
+
+primary_font = "PT Sans:wght@400;700"
+secondary_font = ""
+icon_font = "Font Awesome 5 Free"
+
+########################## Plugings ######################################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+[[params.plugins.css]]
+link = "css/custom-nav.css"
+
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
+
+
+[banner]
+bg_image = "images/bannerbackground.png" #Image voor de achtergrond home page
+title = "<strong>Iljo's Dev blog</strong>."
+
+######################## About Me Widget ###############################
+[about_me]
+title = "Iljo De Poorter"
+bio = ""
+############################# English - Main Menu ########################
+[[menu.main]]
+weight = 1
+url = "/"
+name = "Home"
+
+[[menu.main]]
+weight = 2
+url = "https://github.com/iljo-dp"
+name = "Github"
+
+############################# Footer Menu ########################
+
+[[menu.footer]]
+weight = 3
+url = "privacy/"
+name = "Privacy"

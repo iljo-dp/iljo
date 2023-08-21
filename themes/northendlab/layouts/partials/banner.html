@@ -1,0 +1,21 @@
+<section>
+  <div class="container bannerpad">
+    <div class="list-row">
+      <h1 class="mainpagetitle">Iljo De Poorter</h1>
+      <h4 class="banner-social">
+        {{ "<!-- about me -->" | safeHTML }}
+        {{ with site.Params.social_profile }}
+        <ul class="list-unstyled list-inline">
+          {{ range . }}
+          <li class="banner-social mr-3"><a href="{{ .link }}" aria-label="Social Profile"><i class="{{ .icon }}"></i></a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </h4>
+      <div style="text-align: center;">
+        <p class="banner-para">Keep up with my dev news and me ranting and microblogging.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
