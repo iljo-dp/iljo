@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "example.com"
+baseURL = "iljo.dev"
 title = "Iljo's dev and microblogging platform"
 # theme
 theme = "northendlab"
@@ -25,11 +25,11 @@ home = ["HTML", "AMP", "RSS", "JSON"]
 ######################### Default Parameters ###########################
 [params]
 # logo
-logo = "images/favicon.webp"
+#logo = "images/favicon.webp"
 logoWidth = 121
 logoHeight = 50
 # favicon
-favicon = "images/favicon.webp"
+#favicon = "images/favicon.webp"
 author = "Iljo De Poorter"
 description = "My first try at a website, please be kind"
 # homepage main section
