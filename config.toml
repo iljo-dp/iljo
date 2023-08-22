@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "iljo.dev"
+#baseURL = "iljo.dev"
 title = "Iljo's dev and microblogging platform"
 # theme
 theme = "northendlab"
@@ -73,8 +73,8 @@ link = "css/custom-nav.css"
 
 
 # js plugins
-[[params.plugins.js]]
-link = "plugins/jquery/jquery.min.js"
+#[[params.plugins.js]]
+#link = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
