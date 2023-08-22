@@ -3,7 +3,7 @@
 {{ $styles := slice }}
 {{ range site.Params.plugins.css }}
 {{ if findRE "^http" .link }}
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}} >
+<link crossorigin="anonymous" media="all" rel="preload" as="style" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}} >
 {{ else }}
 {{ $styles = $styles | append (resources.Get .link) }}
 {{ end }}
