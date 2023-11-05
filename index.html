@@ -1,40 +1,82 @@
 <!DOCTYPE html>
 <html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>Iljo</title>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<style>
-body {top: 0; left: 0; width: 99%; height: 97%;
-    position: absolute; display: table}
-  p {display: table-cell; vertical-align: middle; text-align: center}
-
-</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Iljo</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        h1 {
+            font-size: 2em;
+            font-style: italic;
+        }
+        
+        img {
+            max-width: 100%;
+            border: 5px solid #fff;
+            border-radius: 15px;
+        }
+        
+        #time {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        
+        #menu {
+            margin-top: 20px;
+        }
+        
+        #menu a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #333;
+            transition: color 0.3s;
+        }
+        
+        #menu a:hover {
+            color: #007bff;
+        }
+    </style>
 </head>
+<body>
+    <h1>Iljo De Poorter</h1>
+    <img src="assets/Kruiskoutermolen_Mere.JPG" alt="Windmill in Mere">
+    <div id="time" hx-get="/get-time">Loading...</div>
 
-<p>
-<font size="7"><i><b>Iljo De Poorter</b></i></font> <br>
-<br>
-  <img src="assets/Kruiskoutermolen_Mere.JPG" alt="Windmill in Mere">
-<br>
-<i>
-  <a href="https://time.is/Ghent" id="time_is_link" rel="nofollow" style="font-size:15px">Time in Ghent:</a>
-</i>
-<span id="Ghent_z706" style="font-size:15px"></span>
-<script src="//widget.time.is/t.js"></script>
-<script>
-  time_is_widget.init({ Ghent_z706: {} });
-</script>
+    <div id="menu">
+        <a href="about.html" hx-get="/about">about</a> //
+        <a href="faq.html" hx-get="/faq">faq</a> // 
+        <a href="contact.html" hx-get="/contact">contact</a> //
+        <a href="https://github.com/iljo-dp" target="_blank">github</a> //
+        <a href="acticles/articles.html" hx-get="/articles">articles</a>
+    </div>
 
-<br><br>
+    <script src="https://unpkg.com/htmx.org@1.7.2/dist/htmx.min.js"></script>
 
-<a href="about.html">about</a> //
-<a href="faq.html">faq</a> // 
-<a href="contact.html">contact</a> //
-<a href="https://github.com/iljo-dp">github</a> //
-<a href="acticles/articles.html">articles</a>
-
-<br>
-<br>
+    <script>
+        function updateTime() {
+            const timeElement = document.getElementById("time");
+            const updateTime = () => {
+                const currentTime = new Date();
+                const formattedTime = currentTime.toLocaleTimeString();
+                timeElement.innerText = `Time in Ghent: ${formattedTime}`;
+            };
+            updateTime();
+            setInterval(updateTime, 1000); // Update the time every second
+        }
+        updateTime();
+    </script>
 </body>
 </html>
