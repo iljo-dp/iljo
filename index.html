@@ -1,82 +1,297 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Iljo</title>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        background-color: #f0f0f0;
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-      }
-
-      h1 {
-        font-size: 2em;
-        font-style: italic;
-      }
-
-      img {
-        max-width: 100%;
-        border: 5px solid #fff;
-        border-radius: 15px;
-      }
-
-      #time {
-        font-size: 1.5em;
-        margin-top: 10px;
-      }
-
-      #menu {
-        margin-top: 20px;
-      }
-
-      #menu a {
-        text-decoration: none;
-        margin: 0 10px;
-        color: #333;
-        transition: color 0.3s;
-      }
-
-      #menu a:hover {
-        color: #007bff;
-      }
-    </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Iljo De Poorter</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="/assets/favicon/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="/assets/favicon/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="/assets/favicon/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="/assets/favicon/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="60x60"
+      href="/assets/favicon/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="/assets/favicon/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="76x76"
+      href="/assets/favicon/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="/assets/favicon/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicon/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <meta name="application-name" content="Iljo's blog" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicon/mstile-144x144.png "
+    />
+    <meta
+      name="msapplication-square70x70logo"
+      content="/assets/favicon/mstile-70x70.png"
+    />
+    <meta
+      name="msapplication-square150x150logo"
+      content="/assets/favicon/mstile-150x150.png"
+    />
+    <meta
+      name="msapplication-wide310x150logo"
+      content="/assets/favicon/mstile-310x150.png"
+    />
+    <meta
+      name="msapplication-square310x310logo"
+      content="/assets/favicon/mstile-310x310.png"
+    />
+    <link rel="stylesheet" type="text/css" href="css/neil-wds.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/computer.css" />
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="https://iljo.dev/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta property="og:site_name" content="Iljo De Poorter" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Iljo De Poorter" />
+    <meta property="og:url" content="https://iljo.dev/" />
+    <link rel="stylesheet" type="text/css" href="css/cards.min.css" />
   </head>
-  <body>
-    <h1>Iljo De Poorter</h1>
-    <img src="assets/Kruiskoutermolen_Mere.JPG" alt="Windmill in Mere" />
-    <div id="time" hx-get="/get-time">Loading...</div>
 
-    <div id="menu">
-      <a href="about.html" hx-get="/about">about</a> //
-      <a href="faq.html" hx-get="/faq">faq</a> //
-      <a href="contact.html" hx-get="/contact">contact</a> //
-      <a href="https://github.com/iljo-dp" target="_blank">github</a> //
-      <a href="acticles/articles.html" hx-get="/articles">articles</a>
-    </div>
-
-    <script src="https://unpkg.com/htmx.org@1.7.2/dist/htmx.min.js"></script>
-
-    <script>
-      function updateTime() {
-        const timeElement = document.getElementById("time");
-        const updateTime = () => {
-          const currentTime = new Date();
-          const formattedTime = currentTime.toLocaleTimeString();
-          timeElement.innerText = `Time in Ghent: ${formattedTime}`;
-        };
-        updateTime();
-        setInterval(updateTime, 1000); // Update the time every second
-      }
-      updateTime();
-    </script>
+  <body class="home-template computer">
+    <header class="container bottom-6">
+      <div class="columns">
+        <div class="column">
+          <div class="navbar">
+            <div class="navbar-section measure-12 measure-8-phone">
+              <h2>Navigation</h2>
+            </div>
+            <div class="navbar-section">
+              <h2>
+                <span class="h2-normal"
+                  >~ / <a href="/" title="Home">Home</a></span
+                >
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="measure-60 measure-36-tablet responsive-24-phone">
+      <div class="container">
+        <h2>About</h2>
+        <div class="columns bottom-1">
+          <div class="column flex-measure-36 bottom-1">
+            <table class="table">
+              <thead class="black bg-light-gray ba b--black">
+                <tr>
+                  <th class="measure-12 measure-8-phone">
+                    Personal Information
+                  </th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Iljo De Poorter</td>
+                </tr>
+                <tr>
+                  <td>Occupation</td>
+                  <td>
+                    studying
+                    <br />
+                    and animator @ ijd.be
+                  </td>
+                </tr>
+                <tr>
+                  <td>Employer</td>
+                  <td>
+                    My current School
+                    <br />
+                    <a
+                      href="https://www.hogent.be/en/"
+                      title="University College Ghent - Student applied computer science"
+                      target="_blank"
+                      >University College Ghent - Student applied computer
+                      science</a
+                    >
+                    <br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Previous Employers</td>
+                  <td>
+                    <a href="mailto:iljodp@gmail.com">Be my first employer</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Education</td>
+                  <td>
+                    Currently studying for my BS In applied computer science<br />
+                    <a
+                      href="https://www.hogent.be/en"
+                      title="University College Ghent"
+                      target="_blank"
+                      >University College Ghent</a
+                    >
+                    <br />
+                    High School:
+                    <br />
+                    Graduated with honors in computer science
+                    <br />
+                    <a
+                      href="https://smi-aalst.be/"
+                      title="Saint Martin of Tours institute"
+                      target="_blank"
+                      >Saint Martin of Tours institute</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="column bottom-1">
+            <table class="table">
+              <thead class="black bg-light-gray ba b--black">
+                <tr>
+                  <th class="measure-12 measure-8-phone">Contact</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Email</td>
+                  <td>
+                    <a href="mailto:iljodp@gmail.com">iljodp@gmail.com</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img
+                      class="social-media-icon"
+                      src="imgs/github.svg"
+                      alt="Github Icon"
+                    />
+                    Github
+                  </td>
+                  <td>
+                    <a href="https://github.com/iljo-dp" target="_blank"
+                      >iljo-dp</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img
+                      class="social-media-icon"
+                      src="imgs/linkedin.svg"
+                      alt="Github Icon"
+                    />
+                    LinkedIn
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/iljo-de-poorter-43390a1b9"
+                      target="_blank"
+                      >Iljo De Poorter</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="columns bottom-1">
+          <div class="column flex-measure-60 bottom-1">
+            <h2 class="inline-block">Notes</h2>
+            / <a href="/notes" title="Notes Archive">Archive →</a>
+            <table class="table">
+              <thead class="black bg-light-gray ba b--black">
+                <tr>
+                  <th class="measure-12 measure-8-phone">Date</th>
+                  <th>Title</th>
+                  <th class="measure-6 hide-phone">Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <time datetime="2023-09-15">2023-09-15</time>
+                  </td>
+                  <td>
+                    <a
+                      href="/notes/minimalism/minimalism.html"
+                      title="Minimalism and staying productive"
+                      >Minimalism and staying productive</a
+                    >
+                  </td>
+                  <td class="hide-phone">
+                    <a
+                      class="btn btn-sm bg-dark-green white hover-white hover-bg-black measure-6"
+                      href="/notes/minimalism/minimalism.html"
+                      title="Read Article - Minimalism and staying productive"
+                      >Read →</a
+                    ><br />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <p class="ml-2"><a href="/index" title="Site Index">Site Index →</a></p>
+    </main>
+    <footer class="top-4 moon-gray">Iljo De Poorter.</footer>
+    <script src="js/rocket-loader.min.js"></script>
   </body>
 </html>
