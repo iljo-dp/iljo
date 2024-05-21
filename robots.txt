@@ -1,0 +1,17 @@
+# robots.txt file for iljo.dev
+
+# Disallow all web crawlers from accessing specific directories
+User-agent: *
+Disallow: /js/
+Disallow: /images/
+
+# Allow web crawlers to access public directories
+Allow: /notes/
+Allow: *
+
+# Block specific web crawlers from accessing the entire site
+User-agent: BadBot
+Disallow: /
+
+# Provide the location of the sitemap
+Sitemap: https://iljo.dev/sitemap.xml
