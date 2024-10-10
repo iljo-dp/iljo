@@ -1,1 +1,280 @@
-body{padding:1rem 1.5rem;font-size:100%}h2,h3,h4{font-size:1em}.h2-normal{font-weight:450}em{font-style:italic}p.preamble{text-indent:-1.2em;!important;margin-left:1.1em;!important;margin-bottom:.4em;!important}.navbar .navbar-section{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex:1 0 0;flex:1 0 0}.navbar .navbar-section:not(:first-child):last-child{-ms-flex-pack:start;justify-content:flex-start}.navbar .navbar-brand{font-size:inherit;font-style:normal;margin:0}.brand{font-style:italic;font-weight:700;text-transform:none}header.container{max-width:inherit;border-bottom:1px solid #000}.container{max-width:800px;margin:0}.inline-block{display:inline-block;margin-right:.5em}.kg-image{display:block;max-width:96em;width:100%;height:auto;margin:0}.img-card{width:100%;display:block;height:auto;margin:.3em 0 .7em}figure{padding:.4em;border:1px solid #ccc;margin:2em 0}figcaption{margin-top:.4em;text-align:center}hr{border:none;border-top:1px dashed #999;color:#333;overflow:visible;height:1px;margin:2em 0}.table-classic td{border-left:.1rem solid #bfbfbf}.table-full{height:100%}.measure-custom{width:11.6em;max-width:11.6em}.measure-custom2{width:10em;max-width:103em}.measure-custom3{width:19em;max-width:19em}.measure-1{width:1em;max-width:1em}.measure-2{width:2em;max-width:2em}.measure-3{width:3em;max-width:3em}.measure-4{width:4em;max-width:4em}.measure-6{width:6em;max-width:6em}.measure-8{width:8em;max-width:8em}.measure-12{width:12em;max-width:12em}.measure-16{width:16em;max-width:16em}.measure-24{width:24em;max-width:24em}.measure-36{width:36em;max-width:36em}.measure-48{width:48em;max-width:48em}.measure-60{width:60em;max-width:60em}.measure-72{width:72em;max-width:72em}.measure-96{width:96em;max-width:96em}.limit-1{max-width:1em}.limit-2{max-width:2em}.limit-3{max-width:3em}.limit-4{max-width:4em}.limit-6{max-width:6em}.limit-8{max-width:8em}.limit-12{max-width:12em}.limit-16{max-width:16em}.limit-24{max-width:24em}.limit-36{max-width:36em}.limit-48{max-width:48em}.limit-60{max-width:60em}.limit-72{max-width:72em}.limit-96{max-width:96em}.hide{display:none}@media screen and (max-width:30em){.responsive-1-phone{min-width:1em;max-width:100%}.responsive-2-phone{min-width:2em;max-width:100%}.responsive-3-phone{min-width:3em;max-width:100%}.responsive-4-phone{min-width:4em;max-width:100%}.responsive-6-phone{min-width:6em;max-width:100%}.responsive-8-phone{min-width:8em;max-width:100%}.responsive-12-phone{min-width:12em;max-width:100%}.responsive-16-phone{min-width:16em;max-width:100%}.responsive-24-phone{min-width:24em;max-width:100%}.responsive-36-phone{min-width:36em;max-width:100%}.responsive-48-phone{min-width:48em;max-width:100%}.responsive-60-phone{min-width:60em;max-width:100%}.responsive-72-phone{min-width:72em;max-width:100%}.responsive-96-phone{min-width:96em;max-width:100%}.measure-1-phone{width:1em;max-width:1em}.measure-2-phone{width:2em;max-width:2em}.measure-3-phone{width:3em;max-width:3em}.measure-4-phone{width:4em;max-width:4em}.measure-6-phone{width:6em;max-width:6em}.measure-8-phone{width:8em;max-width:8em}.measure-12-phone{width:12em;max-width:12em}.measure-16-phone{width:16em;max-width:16em}.measure-24-phone{width:24em;max-width:24em}.measure-36-phone{width:36em;max-width:36em}.measure-48-phone{width:48em;max-width:48em}.measure-60-phone{width:60em;max-width:60em}.measure-72-phone{width:72em;max-width:72em}.measure-96-phone{width:96em;max-width:96em}.hide-phone{display:none}body{padding:1em .4em;font-size:13px}}@media screen and (min-width:30em) and (max-width:60em){.measure-1-tablet{width:1em;max-width:1em}.measure-2-tablet{width:2em;max-width:2em}.measure-3-tablet{width:3em;max-width:3em}.measure-4-tablet{width:4em;max-width:4em}.measure-6-tablet{width:6em;max-width:6em}.measure-8-tablet{width:8em;max-width:8em}.measure-12-tablet{width:12em;max-width:12em}.measure-16-tablet{width:16em;max-width:16em}.measure-24-tablet{width:24em;max-width:24em}.measure-36-tablet{width:36em;max-width:36em}.measure-48-tablet{width:48em;max-width:48em}.measure-60-tablet{width:60em;max-width:60em}.measure-72-tablet{width:72em;max-width:72em}.measure-96-tablet{width:96em;max-width:96em}.hide-tablet{display:none}}.top-1{margin-top:1em}.top-2{margin-top:2em}.top-3{margin-top:3em}.top-4{margin-top:4em}.top-6{margin-top:6em}.top-8{margin-top:8em}.top-12{margin-top:12em}.top-16{margin-top:16em}.top-24{margin-top:24em}.top-36{margin-top:36em}.top-48{margin-top:48em}.top-60{margin-top:60em}.bottom-04{margin-bottom:.2em}.bottom-1{margin-bottom:1em}.bottom-2{margin-bottom:2em}.bottom-3{margin-bottom:3em}.bottom-4{margin-bottom:4em}.bottom-6{margin-bottom:6em}.bottom-8{margin-bottom:8em}.bottom-12{margin-bottom:12em}.bottom-16{margin-bottom:16em}.bottom-24{margin-bottom:24em}.bottom-36{margin-bottom:36em}.bottom-48{margin-bottom:48em}.bottom-60{margin-bottom:60em}.spacing-1{margin-top:1em;margin-bottom:1em}.spacing-2{margin-top:2em;margin-bottom:2em}.spacing-3{margin-top:3em;margin-bottom:3em}.spacing-4{margin-top:4em;margin-bottom:4em}.spacing-6{margin-top:6em;margin-bottom:6em}.spacing-8{margin-top:8em;margin-bottom:8em}.spacing-12{margin-top:12em;margin-bottom:12em}.spacing-16{margin-top:16em;margin-bottom:16em}.spacing-24{margin-top:24em;margin-bottom:24em}.spacing-36{margin-top:36em;margin-bottom:36em}.spacing-48{margin-top:48em;margin-bottom:48em}.spacing-60{margin-top:60em;margin-bottom:60em}.align-right{text-align:right}.align-left{text-align:left}.flex-measure-12{flex:0 0 12em}.flex-measure-24{flex:0 0 24em}.flex-measure-36{flex:0 0 36em}.flex-measure-42{flex:0 0 42em}.flex-measure-48{flex:0 0 48em}.flex-measure-60{flex:0 0 60em}.social-media-icon{width:.875em}.panel .tile{margin:.75rem 0}.panel .panel-header{border-bottom:1px solid #000}footer{margin-top:4rem;color:#ccc}img.splash{width:100%}.panel{padding-top:1em;padding-bottom:1em;max-width:480px}.card{border:1px solid #000}.card .card-header{height:2em;padding-top:.5em;border-bottom:1px solid #000!important;color:#fff;font-weight:700}#swismicros-table-id_filter{display:none}.swissimicros .table{font-size:.8em}p.compact-line{margin:0}.measure{max-width:30em}.measure-small{max-width:26em}.measure-wide{max-width:34em}.measure-narrow{max-width:20em}.measure-float{margin-left:2em;float:left}footer{clear:both}.qrcode{width:58px}.table-fit{width:auto}.table-auto-wide{max-width:70%}.mono{font-family:sf mono,segoe ui mono,roboto mono,Menlo,Courier,monospace}@media screen and (min-width:30em){.measure-ns{max-width:30em}.measure-small-ns{max-width:26em}.measure-wide-ns{max-width:34em}.measure-narrow-ns{max-width:20em}}@media screen and (min-width:30em) and (max-width:60em){.measure-m{max-width:30em}.measure-small-m{max-width:26em}.measure-wide-m{max-width:34em}.measure-narrow-m{max-width:20em}}@media screen and (min-width:60em){.measure-l{max-width:30em}.measure-small-l{max-width:26em}.measure-wide-l{max-width:34em}.measure-narrow-l{max-width:20em}}@media print{header{display:none}footer{display:none}.btn{display:none}}.ba{border-style:solid;border-width:1px}.bt{border-top-style:solid;border-top-width:1px}.br{border-right-style:solid;border-right-width:1px}.bb{border-bottom-style:solid;border-bottom-width:1px}.bl{border-left-style:solid;border-left-width:1px}.bn{border-style:none;border-width:0}.b--black{border-color:#000}.b--near-black{border-color:#111}.b--dark-gray{border-color:#333}.b--mid-gray{border-color:#555}.b--gray{border-color:#777}.b--silver{border-color:#999}.b--light-silver{border-color:#aaa}.b--moon-gray{border-color:#ccc}.b--light-gray{border-color:#eee}.b--near-white{border-color:#f4f4f4}.b--white{border-color:#fff}.b--white-90{border-color:rgba(255,255,255,.9)}.b--white-80{border-color:rgba(255,255,255,.8)}.b--white-70{border-color:rgba(255,255,255,.7)}.b--white-60{border-color:rgba(255,255,255,.6)}.b--white-50{border-color:rgba(255,255,255,.5)}.b--white-40{border-color:rgba(255,255,255,.4)}.b--white-30{border-color:rgba(255,255,255,.3)}.b--white-20{border-color:rgba(255,255,255,.2)}.b--white-10{border-color:rgba(255,255,255,.1)}.b--white-05{border-color:rgba(255,255,255,.05)}.b--white-025{border-color:rgba(255,255,255,.025)}.b--white-0125{border-color:rgba(255,255,255,.0125)}.b--black-90{border-color:rgba(0,0,0,.9)}.b--black-80{border-color:rgba(0,0,0,.8)}.b--black-70{border-color:rgba(0,0,0,.7)}.b--black-60{border-color:rgba(0,0,0,.6)}.b--black-50{border-color:rgba(0,0,0,.5)}.b--black-40{border-color:rgba(0,0,0,.4)}.b--black-30{border-color:rgba(0,0,0,.3)}.b--black-20{border-color:rgba(0,0,0,.2)}.b--black-10{border-color:rgba(0,0,0,.1)}.b--black-05{border-color:rgba(0,0,0,.05)}.b--black-025{border-color:rgba(0,0,0,.025)}.b--black-0125{border-color:rgba(0,0,0,.0125)}.b--dark-red{border-color:#e7040f}.b--red{border-color:#ff4136}.b--light-red{border-color:#ff725c}.b--orange{border-color:#e25600}.b--gold{border-color:#ffb700}.b--yellow{border-color:gold}.b--light-yellow{border-color:#fbf1a9}.b--purple{border-color:#5e2ca5}.b--light-purple{border-color:#a463f2}.b--dark-pink{border-color:#d5008f}.b--hot-pink{border-color:#ff41b4}.b--pink{border-color:#ff80cc}.b--light-pink{border-color:#ffa3d7}.b--dark-green{border-color:#137752}.b--green{border-color:#19a974}.b--light-green{border-color:#9eebcf}.b--navy{border-color:#001b44}.b--dark-blue{border-color:#00449e}.b--blue{border-color:#357edd}.b--light-blue{border-color:#96ccff}.b--lightest-blue{border-color:#cdecff}.b--washed-blue{border-color:#f6fffe}.b--washed-green{border-color:#e8fdf5}.b--washed-yellow{border-color:#fffceb}.b--washed-red{border-color:#ffdfdf}.b--transparent{border-color:transparent}.b--inherit{border-color:inherit}.black-90{color:rgba(0,0,0,.9)}.black-80{color:rgba(0,0,0,.8)}.black-70{color:rgba(0,0,0,.7)}.black-60{color:rgba(0,0,0,.6)}.black-50{color:rgba(0,0,0,.5)}.black-40{color:rgba(0,0,0,.4)}.black-30{color:rgba(0,0,0,.3)}.black-20{color:rgba(0,0,0,.2)}.black-10{color:rgba(0,0,0,.1)}.black-05{color:rgba(0,0,0,.05)}.white-90{color:rgba(255,255,255,.9)}.white-80{color:rgba(255,255,255,.8)}.white-70{color:rgba(255,255,255,.7)}.white-60{color:rgba(255,255,255,.6)}.white-50{color:rgba(255,255,255,.5)}.white-40{color:rgba(255,255,255,.4)}.white-30{color:rgba(255,255,255,.3)}.white-20{color:rgba(255,255,255,.2)}.white-10{color:rgba(255,255,255,.1)}.black{color:#000}.near-black{color:#111}.dark-gray{color:#333}.mid-gray{color:#555}.gray{color:#777}.silver{color:#999}.light-silver{color:#aaa}.moon-gray{color:#ccc}.light-gray{color:#eee}.near-white{color:#f4f4f4}.white{color:#fff}.dark-red{color:#e7040f}.red{color:#ff4136}.light-red{color:#ff725c}.orange{color:#e25600}.gold{color:#ffb700}.yellow{color:gold}.light-yellow{color:#fbf1a9}.purple{color:#5e2ca5}.light-purple{color:#a463f2}.dark-pink{color:#d5008f}.hot-pink{color:#ff41b4}.pink{color:#ff80cc}.light-pink{color:#ffa3d7}.dark-green{color:#137752}.green{color:#19a974}.light-green{color:#9eebcf}.navy{color:#001b44}.dark-blue{color:#00449e}.blue{color:#357edd}.light-blue{color:#96ccff}.lightest-blue{color:#cdecff}.washed-blue{color:#f6fffe}.washed-green{color:#e8fdf5}.washed-yellow{color:#fffceb}.washed-red{color:#ffdfdf}.color-inherit{color:inherit}.bg-black-90{background-color:rgba(0,0,0,.9)}.bg-black-80{background-color:rgba(0,0,0,.8)}.bg-black-70{background-color:rgba(0,0,0,.7)}.bg-black-60{background-color:rgba(0,0,0,.6)}.bg-black-50{background-color:rgba(0,0,0,.5)}.bg-black-40{background-color:rgba(0,0,0,.4)}.bg-black-30{background-color:rgba(0,0,0,.3)}.bg-black-20{background-color:rgba(0,0,0,.2)}.bg-black-10{background-color:rgba(0,0,0,.1)}.bg-black-05{background-color:rgba(0,0,0,.05)}.bg-white-90{background-color:rgba(255,255,255,.9)}.bg-white-80{background-color:rgba(255,255,255,.8)}.bg-white-70{background-color:rgba(255,255,255,.7)}.bg-white-60{background-color:rgba(255,255,255,.6)}.bg-white-50{background-color:rgba(255,255,255,.5)}.bg-white-40{background-color:rgba(255,255,255,.4)}.bg-white-30{background-color:rgba(255,255,255,.3)}.bg-white-20{background-color:rgba(255,255,255,.2)}.bg-white-10{background-color:rgba(255,255,255,.1)}.bg-black{background-color:#000}.bg-near-black{background-color:#111}.bg-dark-gray{background-color:#333}.bg-mid-gray{background-color:#555}.bg-gray{background-color:#777}.bg-silver{background-color:#999}.bg-light-silver{background-color:#aaa}.bg-moon-gray{background-color:#ccc}.bg-light-gray{background-color:#eee}.bg-near-white{background-color:#f4f4f4}.bg-white{background-color:#fff}.bg-transparent{background-color:transparent}.bg-dark-red{background-color:#e7040f}.bg-red{background-color:#ff4136}.bg-light-red{background-color:#ff725c}.bg-orange{background-color:#e25600}.bg-gold{background-color:#ffb700}.bg-yellow{background-color:gold}.bg-light-yellow{background-color:#fbf1a9}.bg-purple{background-color:#5e2ca5}.bg-light-purple{background-color:#a463f2}.bg-dark-pink{background-color:#d5008f}.bg-hot-pink{background-color:#ff41b4}.bg-pink{background-color:#ff80cc}.bg-light-pink{background-color:#ffa3d7}.bg-dark-green{background-color:#137752}.bg-green{background-color:#19a974}.bg-light-green{background-color:#9eebcf}.bg-navy{background-color:#001b44}.bg-dark-blue{background-color:#00449e}.bg-blue{background-color:#357edd}.bg-light-blue{background-color:#96ccff}.bg-lightest-blue{background-color:#cdecff}.bg-washed-blue{background-color:#f6fffe}.bg-washed-green{background-color:#e8fdf5}.bg-washed-yellow{background-color:#fffceb}.bg-washed-red{background-color:#ffdfdf}.bg-inherit{background-color:inherit}.hover-black:hover{color:#000}.hover-black:focus{color:#000}.hover-near-black:hover{color:#111}.hover-near-black:focus{color:#111}.hover-dark-gray:hover{color:#333}.hover-dark-gray:focus{color:#333}.hover-mid-gray:hover{color:#555}.hover-mid-gray:focus{color:#555}.hover-gray:hover{color:#777}.hover-gray:focus{color:#777}.hover-silver:hover{color:#999}.hover-silver:focus{color:#999}.hover-light-silver:hover{color:#aaa}.hover-light-silver:focus{color:#aaa}.hover-moon-gray:hover{color:#ccc}.hover-moon-gray:focus{color:#ccc}.hover-light-gray:hover{color:#eee}.hover-light-gray:focus{color:#eee}.hover-near-white:hover{color:#f4f4f4}.hover-near-white:focus{color:#f4f4f4}.hover-white:hover{color:#fff}.hover-white:focus{color:#fff}.hover-black-90:hover{color:rgba(0,0,0,.9)}.hover-black-90:focus{color:rgba(0,0,0,.9)}.hover-black-80:hover{color:rgba(0,0,0,.8)}.hover-black-80:focus{color:rgba(0,0,0,.8)}.hover-black-70:hover{color:rgba(0,0,0,.7)}.hover-black-70:focus{color:rgba(0,0,0,.7)}.hover-black-60:hover{color:rgba(0,0,0,.6)}.hover-black-60:focus{color:rgba(0,0,0,.6)}.hover-black-50:hover{color:rgba(0,0,0,.5)}.hover-black-50:focus{color:rgba(0,0,0,.5)}.hover-black-40:hover{color:rgba(0,0,0,.4)}.hover-black-40:focus{color:rgba(0,0,0,.4)}.hover-black-30:hover{color:rgba(0,0,0,.3)}.hover-black-30:focus{color:rgba(0,0,0,.3)}.hover-black-20:hover{color:rgba(0,0,0,.2)}.hover-black-20:focus{color:rgba(0,0,0,.2)}.hover-black-10:hover{color:rgba(0,0,0,.1)}.hover-black-10:focus{color:rgba(0,0,0,.1)}.hover-white-90:hover{color:rgba(255,255,255,.9)}.hover-white-90:focus{color:rgba(255,255,255,.9)}.hover-white-80:hover{color:rgba(255,255,255,.8)}.hover-white-80:focus{color:rgba(255,255,255,.8)}.hover-white-70:hover{color:rgba(255,255,255,.7)}.hover-white-70:focus{color:rgba(255,255,255,.7)}.hover-white-60:hover{color:rgba(255,255,255,.6)}.hover-white-60:focus{color:rgba(255,255,255,.6)}.hover-white-50:hover{color:rgba(255,255,255,.5)}.hover-white-50:focus{color:rgba(255,255,255,.5)}.hover-white-40:hover{color:rgba(255,255,255,.4)}.hover-white-40:focus{color:rgba(255,255,255,.4)}.hover-white-30:hover{color:rgba(255,255,255,.3)}.hover-white-30:focus{color:rgba(255,255,255,.3)}.hover-white-20:hover{color:rgba(255,255,255,.2)}.hover-white-20:focus{color:rgba(255,255,255,.2)}.hover-white-10:hover{color:rgba(255,255,255,.1)}.hover-white-10:focus{color:rgba(255,255,255,.1)}.hover-inherit:hover,.hover-inherit:focus{color:inherit}.hover-bg-black:hover{background-color:#000}.hover-bg-black:focus{background-color:#000}.hover-bg-near-black:hover{background-color:#111}.hover-bg-near-black:focus{background-color:#111}.hover-bg-dark-gray:hover{background-color:#333}.hover-bg-dark-gray:focus{background-color:#333}.hover-bg-mid-gray:hover{background-color:#555}.hover-bg-mid-gray:focus{background-color:#555}.hover-bg-gray:hover{background-color:#777}.hover-bg-gray:focus{background-color:#777}.hover-bg-silver:hover{background-color:#999}.hover-bg-silver:focus{background-color:#999}.hover-bg-light-silver:hover{background-color:#aaa}.hover-bg-light-silver:focus{background-color:#aaa}.hover-bg-moon-gray:hover{background-color:#ccc}.hover-bg-moon-gray:focus{background-color:#ccc}.hover-bg-light-gray:hover{background-color:#eee}.hover-bg-light-gray:focus{background-color:#eee}.hover-bg-near-white:hover{background-color:#f4f4f4}.hover-bg-near-white:focus{background-color:#f4f4f4}.hover-bg-white:hover{background-color:#fff}.hover-bg-white:focus{background-color:#fff}.hover-bg-transparent:hover{background-color:transparent}.hover-bg-transparent:focus{background-color:transparent}.hover-bg-black-90:hover{background-color:rgba(0,0,0,.9)}.hover-bg-black-90:focus{background-color:rgba(0,0,0,.9)}.hover-bg-black-80:hover{background-color:rgba(0,0,0,.8)}.hover-bg-black-80:focus{background-color:rgba(0,0,0,.8)}.hover-bg-black-70:hover{background-color:rgba(0,0,0,.7)}.hover-bg-black-70:focus{background-color:rgba(0,0,0,.7)}.hover-bg-black-60:hover{background-color:rgba(0,0,0,.6)}.hover-bg-black-60:focus{background-color:rgba(0,0,0,.6)}.hover-bg-black-50:hover{background-color:rgba(0,0,0,.5)}.hover-bg-black-50:focus{background-color:rgba(0,0,0,.5)}.hover-bg-black-40:hover{background-color:rgba(0,0,0,.4)}.hover-bg-black-40:focus{background-color:rgba(0,0,0,.4)}.hover-bg-black-30:hover{background-color:rgba(0,0,0,.3)}.hover-bg-black-30:focus{background-color:rgba(0,0,0,.3)}.hover-bg-black-20:hover{background-color:rgba(0,0,0,.2)}.hover-bg-black-20:focus{background-color:rgba(0,0,0,.2)}.hover-bg-black-10:hover{background-color:rgba(0,0,0,.1)}.hover-bg-black-10:focus{background-color:rgba(0,0,0,.1)}.hover-bg-white-90:hover{background-color:rgba(255,255,255,.9)}.hover-bg-white-90:focus{background-color:rgba(255,255,255,.9)}.hover-bg-white-80:hover{background-color:rgba(255,255,255,.8)}.hover-bg-white-80:focus{background-color:rgba(255,255,255,.8)}.hover-bg-white-70:hover{background-color:rgba(255,255,255,.7)}.hover-bg-white-70:focus{background-color:rgba(255,255,255,.7)}.hover-bg-white-60:hover{background-color:rgba(255,255,255,.6)}.hover-bg-white-60:focus{background-color:rgba(255,255,255,.6)}.hover-bg-white-50:hover{background-color:rgba(255,255,255,.5)}.hover-bg-white-50:focus{background-color:rgba(255,255,255,.5)}.hover-bg-white-40:hover{background-color:rgba(255,255,255,.4)}.hover-bg-white-40:focus{background-color:rgba(255,255,255,.4)}.hover-bg-white-30:hover{background-color:rgba(255,255,255,.3)}.hover-bg-white-30:focus{background-color:rgba(255,255,255,.3)}.hover-bg-white-20:hover{background-color:rgba(255,255,255,.2)}.hover-bg-white-20:focus{background-color:rgba(255,255,255,.2)}.hover-bg-white-10:hover{background-color:rgba(255,255,255,.1)}.hover-bg-white-10:focus{background-color:rgba(255,255,255,.1)}.hover-dark-red:hover{color:#e7040f}.hover-dark-red:focus{color:#e7040f}.hover-red:hover{color:#ff4136}.hover-red:focus{color:#ff4136}.hover-light-red:hover{color:#ff725c}.hover-light-red:focus{color:#ff725c}.hover-orange:hover{color:#e25600}.hover-orange:focus{color:#e25600}.hover-gold:hover{color:#ffb700}.hover-gold:focus{color:#ffb700}.hover-yellow:hover{color:gold}.hover-yellow:focus{color:gold}.hover-light-yellow:hover{color:#fbf1a9}.hover-light-yellow:focus{color:#fbf1a9}.hover-purple:hover{color:#5e2ca5}.hover-purple:focus{color:#5e2ca5}.hover-light-purple:hover{color:#a463f2}.hover-light-purple:focus{color:#a463f2}.hover-dark-pink:hover{color:#d5008f}.hover-dark-pink:focus{color:#d5008f}.hover-hot-pink:hover{color:#ff41b4}.hover-hot-pink:focus{color:#ff41b4}.hover-pink:hover{color:#ff80cc}.hover-pink:focus{color:#ff80cc}.hover-light-pink:hover{color:#ffa3d7}.hover-light-pink:focus{color:#ffa3d7}.hover-dark-green:hover{color:#137752}.hover-dark-green:focus{color:#137752}.hover-green:hover{color:#19a974}.hover-green:focus{color:#19a974}.hover-light-green:hover{color:#9eebcf}.hover-light-green:focus{color:#9eebcf}.hover-navy:hover{color:#001b44}.hover-navy:focus{color:#001b44}.hover-dark-blue:hover{color:#00449e}.hover-dark-blue:focus{color:#00449e}.hover-blue:hover{color:#357edd}.hover-blue:focus{color:#357edd}.hover-light-blue:hover{color:#96ccff}.hover-light-blue:focus{color:#96ccff}.hover-lightest-blue:hover{color:#cdecff}.hover-lightest-blue:focus{color:#cdecff}.hover-washed-blue:hover{color:#f6fffe}.hover-washed-blue:focus{color:#f6fffe}.hover-washed-green:hover{color:#e8fdf5}.hover-washed-green:focus{color:#e8fdf5}.hover-washed-yellow:hover{color:#fffceb}.hover-washed-yellow:focus{color:#fffceb}.hover-washed-red:hover{color:#ffdfdf}.hover-washed-red:focus{color:#ffdfdf}.hover-bg-dark-red:hover{background-color:#e7040f}.hover-bg-dark-red:focus{background-color:#e7040f}.hover-bg-red:hover{background-color:#ff4136}.hover-bg-red:focus{background-color:#ff4136}.hover-bg-light-red:hover{background-color:#ff725c}.hover-bg-light-red:focus{background-color:#ff725c}.hover-bg-orange:hover{background-color:#e25600}.hover-bg-orange:focus{background-color:#e25600}.hover-bg-gold:hover{background-color:#ffb700}.hover-bg-gold:focus{background-color:#ffb700}.hover-bg-yellow:hover{background-color:gold}.hover-bg-yellow:focus{background-color:gold}.hover-bg-light-yellow:hover{background-color:#fbf1a9}.hover-bg-light-yellow:focus{background-color:#fbf1a9}.hover-bg-purple:hover{background-color:#5e2ca5}.hover-bg-purple:focus{background-color:#5e2ca5}.hover-bg-light-purple:hover{background-color:#a463f2}.hover-bg-light-purple:focus{background-color:#a463f2}.hover-bg-dark-pink:hover{background-color:#d5008f}.hover-bg-dark-pink:focus{background-color:#d5008f}.hover-bg-hot-pink:hover{background-color:#ff41b4}.hover-bg-hot-pink:focus{background-color:#ff41b4}.hover-bg-pink:hover{background-color:#ff80cc}.hover-bg-pink:focus{background-color:#ff80cc}.hover-bg-light-pink:hover{background-color:#ffa3d7}.hover-bg-light-pink:focus{background-color:#ffa3d7}.hover-bg-dark-green:hover{background-color:#137752}.hover-bg-dark-green:focus{background-color:#137752}.hover-bg-green:hover{background-color:#19a974}.hover-bg-green:focus{background-color:#19a974}.hover-bg-light-green:hover{background-color:#9eebcf}.hover-bg-light-green:focus{background-color:#9eebcf}.hover-bg-navy:hover{background-color:#001b44}.hover-bg-navy:focus{background-color:#001b44}.hover-bg-dark-blue:hover{background-color:#00449e}.hover-bg-dark-blue:focus{background-color:#00449e}.hover-bg-blue:hover{background-color:#357edd}.hover-bg-blue:focus{background-color:#357edd}.hover-bg-light-blue:hover{background-color:#96ccff}.hover-bg-light-blue:focus{background-color:#96ccff}.hover-bg-lightest-blue:hover{background-color:#cdecff}.hover-bg-lightest-blue:focus{background-color:#cdecff}.hover-bg-washed-blue:hover{background-color:#f6fffe}.hover-bg-washed-blue:focus{background-color:#f6fffe}.hover-bg-washed-green:hover{background-color:#e8fdf5}.hover-bg-washed-green:focus{background-color:#e8fdf5}.hover-bg-washed-yellow:hover{background-color:#fffceb}.hover-bg-washed-yellow:focus{background-color:#fffceb}.hover-bg-washed-red:hover{background-color:#ffdfdf}.hover-bg-washed-red:focus{background-color:#ffdfdf}.hover-bg-inherit:hover,.hover-bg-inherit:focus{background-color:inherit}.pa0{padding:0}.pa1{padding:.25rem}.pa2{padding:.5rem}.pa3{padding:1rem}.pa4{padding:2rem}.pa5{padding:4rem}.pa6{padding:8rem}.pa7{padding:16rem}.pl0{padding-left:0}.pl1{padding-left:.25rem}.pl2{padding-left:.5rem}.pl3{padding-left:1rem}.pl4{padding-left:2rem}.pl5{padding-left:4rem}.pl6{padding-left:8rem}.pl7{padding-left:16rem}.pr0{padding-right:0}.pr1{padding-right:.25rem}.pr2{padding-right:.5rem}.pr3{padding-right:1rem}.pr4{padding-right:2rem}.pr5{padding-right:4rem}.pr6{padding-right:8rem}.pr7{padding-right:16rem}.pb0{padding-bottom:0}.pb1{padding-bottom:.25rem}.pb2{padding-bottom:.5rem}.pb3{padding-bottom:1rem}.pb4{padding-bottom:2rem}.pb5{padding-bottom:4rem}.pb6{padding-bottom:8rem}.pb7{padding-bottom:16rem}.pt0{padding-top:0}.pt1{padding-top:.25rem}.pt2{padding-top:.5rem}.pt3{padding-top:1rem}.pt4{padding-top:2rem}.pt5{padding-top:4rem}.pt6{padding-top:8rem}.pt7{padding-top:16rem}.pv0{padding-top:0;padding-bottom:0}.pv1{padding-top:.25rem;padding-bottom:.25rem}.pv2{padding-top:.5rem;padding-bottom:.5rem}.pv3{padding-top:1rem;padding-bottom:1rem}.pv4{padding-top:2rem;padding-bottom:2rem}.pv5{padding-top:4rem;padding-bottom:4rem}.pv6{padding-top:8rem;padding-bottom:8rem}.pv7{padding-top:16rem;padding-bottom:16rem}.ph0{padding-left:0;padding-right:0}.ph1{padding-left:.25rem;padding-right:.25rem}.ph2{padding-left:.5rem;padding-right:.5rem}.ph3{padding-left:1rem;padding-right:1rem}.ph4{padding-left:2rem;padding-right:2rem}.ph5{padding-left:4rem;padding-right:4rem}.ph6{padding-left:8rem;padding-right:8rem}.ph7{padding-left:16rem;padding-right:16rem}.ma0{margin:0}.ma1{margin:.25rem}.ma2{margin:.5rem}.ma3{margin:1rem}.ma4{margin:2rem}.ma5{margin:4rem}.ma6{margin:8rem}.ma7{margin:16rem}.ml0{margin-left:0}.ml1{margin-left:.25rem}.ml2{margin-left:.5rem}.ml3{margin-left:1rem}.ml4{margin-left:2rem}.ml5{margin-left:4rem}.ml6{margin-left:8rem}.ml7{margin-left:16rem}.mr0{margin-right:0}.mr1{margin-right:.25rem}.mr2{margin-right:.5rem}.mr3{margin-right:1rem}.mr4{margin-right:2rem}.mr5{margin-right:4rem}.mr6{margin-right:8rem}.mr7{margin-right:16rem}.mb0{margin-bottom:0}.mb1{margin-bottom:.25rem}.mb2{margin-bottom:.5rem}.mb3{margin-bottom:1rem}.mb4{margin-bottom:2rem}.mb5{margin-bottom:4rem}.mb6{margin-bottom:8rem}.mb7{margin-bottom:16rem}.mt0{margin-top:0}.mt1{margin-top:.25rem}.mt2{margin-top:.5rem}.mt3{margin-top:1rem}.mt4{margin-top:2rem}.mt5{margin-top:4rem}.mt6{margin-top:8rem}.mt7{margin-top:16rem}.mv0{margin-top:0;margin-bottom:0}.mv1{margin-top:.25rem;margin-bottom:.25rem}.mv2{margin-top:.5rem;margin-bottom:.5rem}.mv3{margin-top:1rem;margin-bottom:1rem}.mv4{margin-top:2rem;margin-bottom:2rem}.mv5{margin-top:4rem;margin-bottom:4rem}.mv6{margin-top:8rem;margin-bottom:8rem}.mv7{margin-top:16rem;margin-bottom:16rem}.mh0{margin-left:0;margin-right:0}.mh1{margin-left:.25rem;margin-right:.25rem}.mh2{margin-left:.5rem;margin-right:.5rem}.mh3{margin-left:1rem;margin-right:1rem}.mh4{margin-left:2rem;margin-right:2rem}.mh5{margin-left:4rem;margin-right:4rem}.mh6{margin-left:8rem;margin-right:8rem}.mh7{margin-left:16rem;margin-right:16rem}
+.jd-section ul li {
+  display: flex;
+  align-items: flex-start;
+}
+
+.jd-number {
+  margin-right: 1.5em;
+}
+
+.jd-section ul li strong {
+  white-space: nowrap;
+}
+
+.jd-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -0.5em;
+}
+
+.jd-section {
+  flex: 1 1 30%;
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 0.2em;
+  background-color: #f9f9f9;
+}
+
+.jd-section h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.2em;
+}
+
+.jd-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.jd-section li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  border-left: 4px solid #ccc;
+  transition: background-color 0.3s, border-left-color 0.3s;
+}
+
+.jd-section li:hover {
+  background-color: #f1f1f1;
+  border-left-color: #000;
+}
+
+.jd-number {
+  display: inline-block;
+  width: 4em;
+  min-width: 3em;
+  background-color: #ccc;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 1em;
+  padding: 0.2em 0;
+  border-radius: 4px;
+}
+
+.jd-section p {
+  margin-top: 0.5em;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 1000px) {
+  .jd-section {
+    flex: 1 1 100%;
+    margin: 0.5em 0;
+  }
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  padding: 1rem 1.5rem;
+  font-size: 100%;
+}
+
+h2 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.skills-experience {
+  margin-top: 2em;
+}
+
+.skills-experience h2 {
+  margin-bottom: 1em;
+}
+
+.h2-normal {
+  font-weight: 450;
+}
+
+.columns {
+  display: flex;
+  margin-right: -0.4rem;
+  margin-left: -0.4rem;
+}
+
+.column {
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+@media screen and (min-width: 30em) {
+  .column {
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 29.99em) {
+  .column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .column {
+    flex-basis: 100%;
+  }
+}
+
+.navbar .navbar-section {
+  display: flex;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+.navbar .navbar-section:not(:first-child):last-child {
+  justify-content: flex-start;
+}
+
+header.container {
+  max-width: inherit;
+  border-bottom: 1px solid #000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0;
+}
+
+.inline-block {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.measure-6 {
+  width: 6em;
+  max-width: 6em;
+}
+
+.measure-12 {
+  width: 12em;
+  max-width: 12em;
+}
+
+.measure-60 {
+  width: 60em;
+  max-width: 60em;
+}
+
+@media screen and (max-width: 30em) {
+  .responsive-24-phone {
+    font-size: small;
+    min-width: 24em;
+    max-width: 100%;
+  }
+
+  .measure-8-phone {
+    width: 8em;
+    max-width: 8em;
+  }
+
+  .hide-phone {
+    display: none;
+  }
+
+  body {
+    padding: 1em 0.4em;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .measure-36-tablet {
+    width: 36em;
+    max-width: 36em;
+  }
+}
+
+.top-4 {
+  margin-top: 4em;
+}
+
+.bottom-1 {
+  margin-bottom: 1em;
+}
+
+.bottom-6 {
+  margin-bottom: 6em;
+}
+
+.flex-measure-36 {
+  flex: 0 0 36em;
+}
+
+.flex-measure-60 {
+  flex: 0 0 60em;
+}
+
+.social-media-icon {
+  width: 0.875em;
+}
+
+footer {
+  margin-top: 4rem;
+  color: #ccc;
+  clear: both;
+}
+
+@media print {
+  header,
+  footer,
+  .btn {
+    display: none;
+  }
+}
+
+.ba {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.b--black {
+  border-color: #000;
+}
+
+.black {
+  color: #000;
+}
+
+.moon-gray {
+  color: #ccc;
+}
+
+.white {
+  color: #fff;
+}
+
+.bg-light-gray {
+  background-color: #eee;
+}
+
+.bg-dark-green {
+  background-color: #137752;
+}
+
+.hover-white:hover,
+.hover-white:focus {
+  color: #fff;
+}
+
+.hover-bg-black:hover,
+.hover-bg-black:focus {
+  background-color: #000;
+}
