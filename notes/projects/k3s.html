@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Iljo De Poorter / My K3S homelab</title>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="application-name" content="Iljo's blog" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <link rel="stylesheet" type="text/css" href="../../css/neil-wds.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../css/computer.css" />
+  <link rel="icon" href="../../imgs/favicon.ico" type="image/x-icon" />
+  <link rel="canonical" href="https://iljo.dev/notes/projects/k3s.html" />
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+  <meta property="og:site_name" content="Iljo De Poorter" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Iljo De Poorter /  My K3S homelab" />
+  <meta property="og:url" content="https://iljo.dev/notes/projects/k3s.html" />
+  <link rel="stylesheet" type="text/css" href="../../css/cards.min.css" />
+</head>
+
+<body class="post-template computer">
+  <header class="container bottom-4">
+    <div class="columns">
+      <div class="column">
+        <div class="navbar">
+          <div class="navbar-section measure-12 measure-8-phone">
+            <h2>Navigation</h2>
+          </div>
+          <div class="navbar-section">
+            <h2>
+              <span class="h2-normal">
+                ~ / <a class="link" href="/index.html">Home</a> /
+                <a class="link" href="/notes.html">Notes</a> / My K3S homelab
+              </span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container measure-60 measure-36-tablet responsive-24-phone">
+    <article class="post">
+      <header>
+        <h1>My K3S homelab</h1>
+        <p class="post-meta">
+          <time datetime="2024-12-09">2024-12-09</time>
+        </p>
+      </header>
+      <section class="post-content">
+
+        <h1>Building a Dynamic, GitOps-Driven Homelab with k3s, ArgoCD, and CI/CD
+        </h1>
+
+        <p>
+          Imagine having the power to spin up fully functional Kubernetes environments for each new feature branch you
+          create—an automated, self-healing system that integrates tightly with Git, Helm, and continuous delivery.
+          That’s
+          exactly what I’ve built in my homelab: a k3s-based cluster orchestrating ephemeral dev environments
+          on-the-fly,
+          continuously deploying changes with ArgoCD, and providing full visibility through a robust monitoring stack.
+        </p>
+
+        <p>
+          The foundation of this setup is k3s, a lightweight Kubernetes distribution that’s perfect for homelabs. On top
+          of k3s, I’ve introduced ArgoCD to implement GitOps principles. Each time I push a branch, a GitLab CI/CD
+          pipeline updates the repo’s configuration, and ArgoCD automatically reconciles that state in the cluster. The
+          result is a dynamic environment—complete with its own namespace, services, and ingress—appearing as soon as a
+          branch emerges, and disappearing just as seamlessly when that branch is removed.
+        </p>
+
+        <p>
+          Helm charts underpin the applications, ensuring consistency and reproducibility. Everything from a simple
+          Nginx-based app to more complex microservices architectures can be defined declaratively, versioned, and
+          easily
+          rolled back if something goes sideways. Meanwhile, Prometheus and Grafana provide comprehensive observability:
+          I
+          can monitor resource usage, request latencies, and scaling behavior right from clean, insightful dashboards.
+        </p>
+
+        <p>
+          This approach goes beyond just “looking cool.” For a developer or an infrastructure engineer, it’s a workflow
+          that scales gracefully. Imagine never manually provisioning or cleaning up a development environment again.
+          Imagine feature branches deployed to their own isolated world, where QA and stakeholders can test without
+          affecting others. The CI/CD pipelines handle all the grunt work, and the cluster continuously converges toward
+          the desired state defined in Git.
+        </p>
+
+        <p>
+          If this kind of end-to-end automation sounds compelling, I’ve open-sourced a working example. Check out the
+          repo
+          at TODO(reworking it right now) to see how I’ve pieced everything together. Whether you’re curious about
+          GitOps,
+          new to Kubernetes, or just love pushing the boundaries of a homelab environment, I hope this setup sparks new
+          ideas about how to streamline your workflow and level up your DevOps game.
+        </p>
+      </section>
+    </article>
+    <div class="ml-1">
+      <p>
+        <a class="top-2 btn bg-dark-green white hover-white hover-bg-black" href="/notes.html">← Back to Notes</a>
+      </p>
+    </div>
+  </main>
+  <footer class="top-4 moon-gray">
+    <small>Iljo De Poorter. </small>
+  </footer>
+  <script src="../../js/rocket-loader.min.js"></script>
+</body>
+
+</html>
