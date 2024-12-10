@@ -1,6 +1,0 @@
-# robots.txt file for iljo.dev
-
-# Disallow all web crawlers from accessing specific directories
-User-agent: *
-Disallow: /js/
-Disallow: /images/
