@@ -1,4 +1,3 @@
-
 set -e
 
 BASE_DIR="$(dirname "$(realpath "$0")")"
@@ -46,6 +45,13 @@ find "$MARKDOWN_DIR" -name '*.md' | while read -r mdfile; do
     CATEGORY_DIR="$OUTPUT_BASE_DIR/$CATEGORY"
     mkdir -p "$CATEGORY_DIR"
 
+    OUTPUT_FILE="$CATEGORY_DIR/$FILENAME.html"
+
+    if [[ -f "$OUTPUT_FILE" ]]; then
+        echo "Skipping '$OUTPUT_FILE' as it already exists."
+        continue
+    fi
+
     CONTENT=$(sed '1,/^$/d' "$mdfile")
 
     echo "$CONTENT" | pandoc -f markdown -t html -o "$TMP_CONTENT"
@@ -65,7 +71,6 @@ find "$MARKDOWN_DIR" -name '*.md' | while read -r mdfile; do
 
     OUTPUT_CONTENT=$(envsubst < "$TEMPLATE_FILE")
 
-    OUTPUT_FILE="$CATEGORY_DIR/$FILENAME.html"
     echo "$OUTPUT_CONTENT" > "$OUTPUT_FILE"
 
     echo "Generated '$OUTPUT_FILE'"
@@ -74,4 +79,3 @@ done
 rm "$TMP_CONTENT"
 
 echo "Article generation completed successfully."
-
